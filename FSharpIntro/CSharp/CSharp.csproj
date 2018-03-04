@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\Trampoline.cs" />
     <Compile Include="Helpers\Display.cs" />
     <Compile Include="Modules\FilterModule.cs" />
+    <Compile Include="Modules\RecursionModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Values\Integers.cs" />

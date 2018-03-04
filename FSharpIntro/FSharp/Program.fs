@@ -3,14 +3,13 @@
 
 open System
 open FilterModule
-open Display
 
 [<EntryPoint>]
 let main argv =  
-
-
-    DisplayListOfIntegers evenIntegers
+    
+    FilterModule.print
+    //RecursionModule.print
 
     Console.WriteLine "Press any key..."
-    Console.ReadLine() |> ignore
+    Console.ReadKey() |> ignore
     0 // return an integer exit code

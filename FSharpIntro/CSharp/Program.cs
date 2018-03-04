@@ -13,15 +13,11 @@ namespace CSharp
     {
         public static void Main(string[] args)
         {
-            var integers1To10 = Integers.GetIntegerList(10);
-            var evenIntegers = FilterModule.GetEvenNumbers(integers1To10);
-            var evenIntegersLinq = FilterModule.GetEvenIntegersLinq(integers1To10);
-
-            Display.DisplayListOfIntegers(evenIntegers);
-            Display.DisplayListOfIntegers(evenIntegersLinq);
+            //FilterModule.Print();
+            //RecursionModule.Print();
 
             Console.WriteLine("Press any key...");
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }

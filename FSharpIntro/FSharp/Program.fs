@@ -3,11 +3,13 @@
 
 open System
 open FilterModule
+open FoldModule
 
 [<EntryPoint>]
 let main argv =  
     
-    FilterModule.print
+    FoldModule.print
+    //FilterModule.print
     //RecursionModule.print
 
     Console.WriteLine "Press any key..."

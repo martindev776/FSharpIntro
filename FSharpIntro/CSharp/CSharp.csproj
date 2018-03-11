@@ -45,6 +45,7 @@
     <Compile Include="DesignPatterns\Trampoline.cs" />
     <Compile Include="Helpers\Display.cs" />
     <Compile Include="Modules\FilterModule.cs" />
+    <Compile Include="Modules\FoldModule.cs" />
     <Compile Include="Modules\RecursionModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

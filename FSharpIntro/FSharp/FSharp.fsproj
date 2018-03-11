@@ -59,6 +59,7 @@
     <Compile Include="Display.fs" />
     <Compile Include="FilterModule.fs" />
     <Compile Include="RecursionModule.fs" />
+    <Compile Include="FoldModule.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />

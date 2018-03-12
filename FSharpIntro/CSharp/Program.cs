@@ -15,7 +15,7 @@ namespace CSharp
         {
             //FilterModule.Print();
             //RecursionModule.Print();
-            FoldModule.Print();
+            //FoldModule.Print();
 
             Console.WriteLine("Press any key...");
             Console.ReadKey();

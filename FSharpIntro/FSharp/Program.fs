@@ -7,8 +7,11 @@ open FoldModule
 
 [<EntryPoint>]
 let main argv =  
-    
-    FoldModule.print
+
+    let theNumbers = [1..10]
+    Display.DisplayListOfIntegers (BasicsModule.multedBy2AndLessThan6ReversePipe theNumbers)
+
+    //FoldModule.print
     //FilterModule.print
     //RecursionModule.print
 

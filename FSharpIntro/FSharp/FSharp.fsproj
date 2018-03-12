@@ -56,6 +56,7 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="BasicsModule.fs" />
     <Compile Include="Display.fs" />
     <Compile Include="FilterModule.fs" />
     <Compile Include="RecursionModule.fs" />

@@ -1,6 +1,12 @@
 ﻿module BasicsModule
 
+open System
+open System.Numerics
+
 //functions
+//pi = ln(-1) / i
+let pi = (Complex.Log(Complex(-1.0, 0.0), Math.E) / Complex.ImaginaryOne).Real
+
 let addOne x = x + 1
 
 let addOneFun = fun x -> x + 1

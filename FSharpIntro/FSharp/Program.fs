@@ -9,19 +9,19 @@ open System.Numerics
 [<EntryPoint>]
 let main argv =  
 
-    //let theNumbers = [1..10]
-    //Display.DisplayListOfIntegers (BasicsModule.multedBy2AndLessThan6ReversePipe theNumbers)
-    
-    //Console.WriteLine(BasicsModule.pi)
+    //printfn "%f" BasicsModule.pi
+    //BasicsModule.printPartialApplication ()
+    //BasicsModule.printPiping () 
 
     //PatternMatchingModule.printTypes
     //PatternMatchingModule.print 10
     //PatternMatchingModule.print 100
     //PatternMatchingModule.print 1
 
-    //FoldModule.print
+    
     //FilterModule.print
     //RecursionModule.print
+    //FoldModule.print
 
     Console.WriteLine "Press any key..."
     Console.ReadKey() |> ignore
